@@ -99,7 +99,8 @@ Deliver the right intelligence to the right audience, in the right format, at th
 **What we manage:**
 
 Production of operational outputs:
-Tickets
+
++ Tickets
 
 + SATAYO Indicators Blacklist
 

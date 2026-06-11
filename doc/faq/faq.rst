@@ -18,7 +18,7 @@ SATAYO performs regular scans of publicly visible sources. It runs daily or week
 What types of evidence and threat items can users explore in SATAYO?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Within the SATAYO platform, evidence is categorized into multiple item types, including hostnames, domains (suspicious, correlated, phishing, etc.), exposed credentials, potentially confidential data (e.g., files, buckets, GitHub data), mail servers, personal information (phone numbers, emails), breached account data, and more. This allows analysts to pivot through diverse data relevant to exposure
+Within the SATAYO platform, evidence is categorized into multiple item types, including hostnames, domains (suspicious, correlated, phishing, etc.), exposed credentials, potentially confidential data (e.g., files, buckets, GitHub data), mail servers, personal information (phone numbers, emails), breached account data, and more. This allows analysts to pivot through diverse data relevant to exposure.
 
 
 What is the Exposure Assessment Index Value (EAIV)?

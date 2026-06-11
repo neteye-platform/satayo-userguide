@@ -7,7 +7,7 @@ SATAYO Community
 General info
 =============
 
-The SATAYO Community was created as an exclusive virtual space dedicated to SATAYO customers and users. You can find more information about at `SATAYO Community official website <https://community.satayo.cloud/>`_.
+The SATAYO Community was created as an exclusive virtual space dedicated to SATAYO customers and users. You can find more information about it at `SATAYO Community official website <https://community.satayo.cloud/>`_.
 
 Purposes
 =============
