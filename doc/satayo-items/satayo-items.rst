@@ -254,9 +254,9 @@ Mail
 
 This page shows the email accounts belonging to the domain under analysis. It is reported whether the account was used to subscribe to an online service and if it is present in one or more data breaches.
 From here it is possible to access the sections :ref:`Breached Accounts<breached>`, :ref:`Password<password>` and :ref:`Paste<paste>` and see the data related to the selected account.
-Accessing the same sections from the global menu will show data for all the email adresses present.
+Accessing the same sections from the global menu will show data for all the email addresses present.
 
-Emails shown here were retrieved by SATAYO trough OSINT analysis and were not validated. You may also see e-mails belonging to old employees.
+Emails shown here were retrieved by SATAYO through OSINT analysis and were not validated. You may also see e-mails belonging to old employees.
 We have added an enable/disable button to allow you to disable an old account and no longer receive notification about it.
 
 There is also an option to classify emails as **VIP accounts**. These accounts are the one related to important corporate figures and their data is also shown in the :ref:`global overview<global-overview>`.
@@ -282,7 +282,7 @@ Password
 
 This page shows the passwords detected in the various data breaches, indicating the type of password.
 For the hashes present, if available, the equivalent in plain text is shown. There is also a counter indicating how many times that password was found within the breaches.
-All the passwords present within this list are **unsecure** and should be changed immediately.
+All the passwords present within this list are **insecure** and should be changed immediately.
 
 .. _paste:
 

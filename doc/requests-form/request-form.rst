@@ -99,5 +99,5 @@ The available levels are:
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | TLP AMBER STRICT | Limited disclosure, restricted to participants’ organization. The output can be shared only within your organization.                                                                        |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| TLP RED          | Not for disclosure, restricted to participants only. In this case a deciated team will handle the request and the information shared will be threated with the maximum confidentiality.      |
+| TLP RED          | Not for disclosure, restricted to participants only. In this case a dedicated team will handle the request and the information shared will be treated with the maximum confidentiality.      |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

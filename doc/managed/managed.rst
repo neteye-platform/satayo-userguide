@@ -23,7 +23,7 @@ our team will periodically schedule a **one-hour meeting** with you to discuss t
 Help Center
 ============
 
-The `Help Center of Würth IT Italy <https://siwuerthphoenix.atlassian.net/servicedesk/customer/portals>`__, is the place where you can open tickets or requests for malfunctions, informations, help with configurations or anything you need.
+The `Help Center of Würth IT Italy <https://siwuerthphoenix.atlassian.net/servicedesk/customer/portals>`__, is the place where you can open tickets or requests for malfunctions, information, help with configurations or anything you need.
 
 The Help Center is based on Atlassian Jira and you need a Jira account to open requests. In case you don't have it, it can be easily `created here <https://siwuerthphoenix.atlassian.net/servicedesk/customer/user/signup?destination=portals>`__.
 Simply enter your email address and you will receive a link to finalize the registration.
@@ -68,7 +68,7 @@ When the status of the ticket is in :command:`Waiting for Customer` it means it'
 How to open tickets
 --------------------
 
-In order to open tickets, your must have a Jira account associated to your SATAYO account. From :file:`Settings -> Support` you can check if your account is correctly activated. 
+In order to open tickets, your must have a Jira account associated to your SATAYO account. From :file:`Settings -> Support` you can check if your account is correctly activated.
 
 .. image:: registered.png
     :align: center
@@ -181,4 +181,3 @@ When a new analysis is completed and new report is available, you will be notifi
 
 .. image:: alert01.png
     :align: center
-

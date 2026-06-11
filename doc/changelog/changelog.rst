@@ -199,7 +199,7 @@ released on 2022-03-06
 ~~~~
 released on 2021-11-26
 
-+ :command:`added` SATAYO now searches for Google and Amazon Buckets as well as Azure Conteiners related to the company domain
++ :command:`added` SATAYO now searches for Google and Amazon Buckets as well as Azure Containers related to the company domain
 + :command:`added` "Last modified" column in file evidence
 + :command:`added` Possibility to mark as verified the emails that are reported within the various data breaches. The date and the user who carried out the verification are associated. In the event of new emails present in the future in the same data breach, a new verification by the organization is required
 + :command:`added` hashes of files found by SATAYO

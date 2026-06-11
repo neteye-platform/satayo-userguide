@@ -15,7 +15,7 @@ The first step in collecting the Requirements is to identify the what can be con
 Gathering the Requirements
 ===========================
 
-For better achieving this phase, we defined an introctive questionaire that could be used as a reference during the onboarding phase. The form could be compiled together with the analyst who will conduct the onboarding phase, or it could be filled independently by the organization.
+For better achieving this phase, we defined an introctive questionnaire that could be used as a reference during the onboarding phase. The form could be compiled together with the analyst who will conduct the onboarding phase, or it could be filled independently by the organization.
 
 The following are the items that the organization is required to provide:
 
@@ -36,7 +36,7 @@ SATAYO also provides multiple sections for autonomous configuration of some moni
 Configuring VIP accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The email section allows you to define VIP accounts that require special monitoring attention. These accounts may belong to high-profile individuals within the organization, such as executives or key personnel, whose online presence and activities could be of particular interest for security monitoring. Also it lets you specify unused email addresses realed to disabled or deprected users or mailboxes.
+The email section allows you to define VIP accounts that require special monitoring attention. These accounts may belong to high-profile individuals within the organization, such as executives or key personnel, whose online presence and activities could be of particular interest for security monitoring. Also it lets you specify unused email addresses realed to disabled or deprecated users or mailboxes.
 
 .. image:: mail.png
     :align: center
