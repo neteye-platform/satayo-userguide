@@ -5,7 +5,7 @@ Cyber Threat Intelligence - SATAYO
 ***********************************
 
 :abbr:`SATAYO (Search All Things About Your Organization)` is a :abbr:`CTI (Cyber Threat Intelligence)` platform
-developed by Würth IT Italy that can verify your organization's exposure to possible cyber criminals' actions.
+developed by |witit| that can verify your organization's exposure to possible cyber criminals' actions.
 Exposure assessment is performed using :abbr:`OSINT (Open Source INTelligence)`,
 the branch of intelligence that analyzes data coming from publicly available sources.
 SATAYO shows your company from an attacker's perspective and reports possible attack vectors such as
