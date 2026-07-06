@@ -26,14 +26,14 @@ Sharing events
 
 The SATAYO Community is primarily based on monthly online events and in-person events with varying frequency.
 
-During monthly online meetings, the Würth IT Italy Threat Intelligence team organizes:
+During monthly online meetings, the |witit| Threat Intelligence team organizes:
 
 + shared threat briefings;
 + presentations of real-world cases;
 + peer Q&A sessions;
 + developmental updates to the SATAYO platform.
 
-During onsite meetings, the Würth IT Italy Threat Intelligence team organizes:
+During onsite meetings, the |witit| Threat Intelligence team organizes:
 
 + practical workshops led directly by members of the IT team or SATAYO users
 + roundtable discussions
