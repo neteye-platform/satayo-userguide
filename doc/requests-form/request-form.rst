@@ -40,7 +40,7 @@ The first part of the form requires you to provide some basic information about 
 +------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | EXPLOIT OR VULNERABILITY DETAILS         | Describe weaknesses in systems and the methods used to take advantage of them. They help assess risk and guide timely patching and remediation efforts.                          |
 +------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| DOMAIN TAKEOVER REQUEST                  | Involves identifying and reclaiming domains that are vulnerable or maliciously controlled. It helps prevent abuse, protect brand integrity, and reduce security risks.           |
+| DOMAIN TAKEDOWN REQUEST                  | Involves identifying and reclaiming domains that are vulnerable or maliciously controlled. It helps prevent abuse, protect brand integrity, and reduce security risks.           |
 +------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 |

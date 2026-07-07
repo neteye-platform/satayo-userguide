@@ -30,6 +30,18 @@ From here you can:
 |
 |
 
+Manage your org [STATISTICS]
+============================
+
+The page shows information about your organization, such as the number of active users and the list of monitored domains. 
+The page also shows the status of the :ref:`Intelligence Requirements<maintain-req>`  configuration, which can be updated by opening a ticket or directly editing the configuration where applicable.
+
+.. image:: setting-000.png
+    :align: center
+
+|
+|
+
 Changelog
 ==========
 
