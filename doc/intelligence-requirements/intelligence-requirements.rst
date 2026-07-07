@@ -62,6 +62,13 @@ In this page, the organization can review and update its requirements as needed.
     For each section that requires review, it can be updated by opening a ticket or directly discussing it with the CTI team via the support channels.
 
 
+Every time the organization updates its requirements, the CTI team will review and validate the request and, if permitted under the current license, the perimeter will be updated accordingly. A scheduled notification will be sent to the organization to confirm the review of the requirements. 
+
+
+.. image:: pir-004.png
+    :align: center
+
+
 Define keywords and identity for Ransomware Monitor
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
