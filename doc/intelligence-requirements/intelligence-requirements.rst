@@ -38,15 +38,15 @@ SATAYO also provides multiple sections for autonomous configuration of some moni
 Maintaining the Requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The requirements are not static and may evolve over time due to changes in the organization's operations, market conditions, or emerging threats. Therefore, it is essential to establish a process for regularly reviewing and updating the intelligence requirements to ensure they remain relevant and effective. 
+The requirements are not static and may evolve over time due to changes in the organization's operations, market conditions, or emerging threats. Therefore, it is essential to establish a process for regularly reviewing and updating the intelligence requirements to ensure they remain relevant and effective.
 
-For this reason, SATAYO platform provides a periodic confirmation workflow for Priority Intelligence Requirements with overdue review alert. A dedicated section is available in the :ref:`Manage Your Org<manage-your-org>` page, where the organization can review and update its requirements as needed. 
+For this reason, SATAYO platform provides a periodic confirmation workflow for Priority Intelligence Requirements with overdue review alert. A dedicated section is available in the :ref:`Manage Your Org<manage-your-org>` page, where the organization can review and update its requirements as needed.
 The CTI team will review and validate the request and, if permitted under the current license, the perimeter will be updated accordingly.
 
 .. image:: pir-001.png
     :align: center
 
-In this page, the organization can review and update its requirements as needed. 
+In this page, the organization can review and update its requirements as needed.
 
 + 1. Ransomware monitor keywords, country sector and identity information could be updated by clicking on the "Edit" button.
 + 2. Technology mapping, users can define the technologies that are relevant for the management of Early Warning on the same. The list could be updated by clicking on the "Edit" button.
@@ -62,7 +62,7 @@ In this page, the organization can review and update its requirements as needed.
     For each section that requires review, it can be updated by opening a ticket or directly discussing it with the CTI team via the support channels.
 
 
-Every time the organization updates its requirements, the CTI team will review and validate the request and, if permitted under the current license, the perimeter will be updated accordingly. A scheduled notification will be sent to the organization to confirm the review of the requirements. 
+Every time the organization updates its requirements, the CTI team will review and validate the request and, if permitted under the current license, the perimeter will be updated accordingly. A scheduled notification will be sent to the organization to confirm the review of the requirements.
 
 
 .. image:: pir-004.png

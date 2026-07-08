@@ -10,7 +10,7 @@ This page shows the changelog for the SATAYO Threat Intelligence Platform (TIP).
 ~~~~~
 released on 2026-06-04
 
-+ :command:`added` information regarding access to the blacklist indicator list (last GET, ips) 
++ :command:`added` information regarding access to the blacklist indicator list (last GET, ips)
 + :command:`added` new Manage Your Org page with organization overview, active users and monitored domains.
 + :command:`added` Priority Intelligence Requirements section in the Manage Your Org page with configuration status overview.
 + :command:`added` periodic confirmation workflow for Priority Intelligence Requirements with overdue review alert.
