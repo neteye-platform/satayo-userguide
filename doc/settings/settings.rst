@@ -30,6 +30,8 @@ From here you can:
 |
 |
 
+.. _manage-your-org:
+
 Manage your org [STATISTICS]
 ============================
 
