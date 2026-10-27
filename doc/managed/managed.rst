@@ -4,18 +4,26 @@
 Managed Service
 ****************
 
-The content described in this page is valid for the customers who possess the :command:`SaaS & Managed` version of SATAYO. If you don't have it you won't see
-this features in SATAYO, but you can read here anyway to understand how it works.
+The content described in this page is valid for the customers who possess the
+:command:`SaaS & Managed` version of |sat|. If you don't have it you won't see
+this features in |sat|, but you can read here anyway to understand how it works.
 
 |
 |
 
-General info
-=============
+General Information
+===================
 
-After the initial scan is completed, SATAYO allows you download a report at any time in which the :command:`Exposure Assessment Index Value` is calculated based on the evidences found.
-The procedure on how to do it was already explained in the section :ref:`How does SATAYO work<how-SATAYO-works>`. This applies to all the modalities in which SATAYO is offered, but with the :command:`SaaS & Managed` version
-our team will periodically schedule a **one-hour meeting** with you to discuss the findings, align on what the platform is tracking, discuss any new domain to be added to the organization or any new keywords to be inserted.
+After the initial scan is completed, |sat| allows you download a report at any
+time in which the :command:`Exposure Assessment Index Value` is calculated based
+on the evidence found. The procedure on how to do it was already explained in
+the section :ref:`How does |sat| work <how-SATAYO-works>`.
+
+This applies to all the modalities in which |sat| is offered, but with the
+:command:`SaaS & Managed` version our team will periodically schedule a
+**one-hour meeting** with you to discuss the findings, align on what the
+platform is tracking, discuss any new domain to be added to the organization
+or any new keywords to be inserted.
 
 |
 |
@@ -23,24 +31,32 @@ our team will periodically schedule a **one-hour meeting** with you to discuss t
 Help Center
 ============
 
-The `Help Center of Würth IT Italy <https://siwuerthphoenix.atlassian.net/servicedesk/customer/portals>`__, is the place where you can open tickets or requests for malfunctions, information, help with configurations or anything you need.
+You can open tickets or requests for information, fixing malfunctions, help
+with configurations or anything else you need at |support|_.
 
-The Help Center is based on Atlassian Jira and you need a Jira account to open requests. In case you don't have it, it can be easily `created here <https://siwuerthphoenix.atlassian.net/servicedesk/customer/user/signup?destination=portals>`__.
+|witit|'s Help Center is based on Atlassian Jira and you need a Jira account to
+open requests. If you don't have an account, you can easily
+`create one here <https://siwuerthphoenix.atlassian.net/servicedesk/customer/user/signup?destination=portals>`__.
 Simply enter your email address and you will receive a link to finalize the registration.
 
-SATAYO evidences are analyzed by our analysts and the analyses are communicated to you through this portal. The opening of tickets and their possible statuses is explained in :ref:`the next section<tickets-satayo>`.
+|sat| results are analyzed by our analysts and the analyses are communicated to
+you through this portal. The opening of tickets and their possible statuses is
+explained in :ref:`the next section <tickets-satayo>`.
 
 |
 |
 
 .. _tickets-satayo:
 
-Tickets in SATAYO
-==================
+Tickets in |sat|
+================
 
-Jira has been integrated into SATAYO, and in some sections such as domains, vulnerability, market, open bug bounty, general social and sandboxes, you will see a column called **Status**.
+Jira has been integrated into |sat|, and in some sections such as domains,
+vulnerability, market, open bug bounty, general social and sandboxes, you will
+see a column called **Status**.
 
-This column may show different options, depending on the status of the ticket. The possible scenarios you can encounter are the following three:
+This column may show different options, depending on the status of the ticket.
+The possible scenarios you can encounter are the following three:
 
 .. image:: ticketCustomer.png
     :align: center
@@ -68,7 +84,9 @@ When the status of the ticket is in :command:`Waiting for Customer` it means it'
 How to open tickets
 --------------------
 
-In order to open tickets, your must have a Jira account associated to your SATAYO account. From :file:`Settings -> Support` you can check if your account is correctly activated.
+In order to open tickets, your must have a Jira account associated to your |sat|
+account. From :file:`Settings -> Support` you can check if your account is
+correctly activated.
 
 .. image:: registered.png
     :align: center
@@ -136,14 +154,19 @@ In addition to the status, every opened ticket has other important values: **Pri
 Indicators
 ~~~~~~~~~~~
 
-Analysis activities may allow :abbr:`IoC (Indicator of Compromise)` or :abbr:`IoA (Indicator of Attack)` to be identified.
-Sometimes it is sufficient to monitor these indicators, while at other times it is important to take active defensive actions against them.
-When found, IoC and IoA are inserted in two ticket fields called :command:`Indicator` and :command:`Blacklist Indicator`.
+Analysis activities may allow :abbr:`IoC (Indicator of Compromise)` or
+:abbr:`IoA (Indicator of Attack)` to be identified. Sometimes it is sufficient
+to monitor these indicators, while at other times it is important to take active
+defensive actions against them. When found, IoC and IoA are inserted in two
+ticket fields called :command:`Indicator` and :command:`Blacklist Indicator`.
 
-The indicators inserted in the Blacklist Indicator field are collected by an automatic phase (which runs every 10 minutes) that populates a SATAYO table.
-The table can be reached from :file:`Settings -> Indicators`. The collected indicators are divided into several files and made available to you.
+The indicators inserted in the Blacklist Indicator field are collected by an
+automatic phase (which runs every 10 minutes) that populates a |sat| table.
+The table can be reached from :file:`Settings -> Indicators`. The collected
+indicators are divided into several files and made available to you.
 
-An example of the types of indicators and the related links that can be used to download resources is shown below:
+An example of the types of indicators and the related links that can be used to
+download resources is shown below:
 
 +--------------------+--------------------------------------------------------------------+
 | Indicator Type     | Access for the customer                                            |
@@ -165,12 +188,18 @@ It's recommended to configure a schedule capable of downloading indicators every
 
 Some suggestions about possible usages:
 
-+ **IP** - Integrate them within traffic drop rules on firewalling devices, to deny the ingoing/outgoing traffic to/from the IPs
++ **IP** - Integrate them within traffic drop rules on firewalling devices,
+  to deny the ingoing/outgoing traffic to/from the IPs
 + **Domain** - Use them within traffic drop rules on mail servers
-+ **Email** - These may come from SATAYO market evidences or Brute Force attempts. A suggested usage could be to convert the emails to the proper format in order to reset the password on authentication servers (e.g. AD server)
-+ **HASH** - Use them on EDR software to filter out malicious software or within DFIR scenarios
-+ **URL** - Use them on proxy to block malicious connections or on mail server to block links
-+ **Other** - The usage of this type of evidence may vary as it may contain several different elements
++ **Email** - These may come from |sat| market evidences or Brute Force
+  attempts. A suggested usage could be to convert the emails to the proper
+  format in order to reset the password on authentication servers (e.g. AD server)
++ **HASH** - Use them on EDR software to filter out malicious software or within
+  DFIR scenarios
++ **URL** - Use them on proxy to block malicious connections or on mail server
+  to block links
++ **Other** - The usage of this type of evidence may vary as it may contain
+  several different elements
 
 .. _jiraalert:
 

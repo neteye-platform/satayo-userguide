@@ -4,14 +4,18 @@
 Cyber Threat Intelligence - SATAYO
 ***********************************
 
-:abbr:`SATAYO (Search All Things About Your Organization)` is a :abbr:`CTI (Cyber Threat Intelligence)` platform
-developed by |witit| that can verify your organization's exposure to possible cyber criminals' actions.
-Exposure assessment is performed using :abbr:`OSINT (Open Source INTelligence)`,
-the branch of intelligence that analyzes data coming from publicly available sources.
-SATAYO shows your company from an attacker's perspective and reports possible attack vectors such as
-phishing domains, exposed credentials, stolen accounts, vulnerabilities and many others.
+:abbr:`SATAYO (Search All Things About Your Organization)` is a
+:abbr:`CTI (Cyber Threat Intelligence)` platform developed by |witit| that can
+verify your organization's exposure to possible cyber criminals' actions.
 
-In this guide you will find information about what is collected by SATAYO and how to visualize and interact with the data.
+Exposure assessment is performed using :abbr:`OSINT (Open Source INTelligence)`,
+the branch of intelligence that analyzes data coming from publicly available
+sources. |sat| shows your company from an attacker's perspective and reports
+possible attack vectors such as phishing domains, exposed credentials, stolen
+accounts, vulnerabilities and many others.
+
+In this guide you will find information about what is collected by |sat| and
+how to visualize and interact with the data.
 
 .. toctree::
    :maxdepth: 3
