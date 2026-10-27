@@ -73,7 +73,7 @@ An example of an alert received by email is shown below:
 It must be noted that in case of managed service, a different alert will be sent when a new ticket is created by our analysts, as explained in the section :ref:`Managed Service<jiraalert>`.
 
 The evidence collected by |sat| is ordered in multiple :ref:`Items<satayo-items>` that can be reviewed.
-A number called **Exposure Assessment Index Value (EAIV)** is calculated based on the evidences and highlights the :command:`Exposure Assessment` of the domain.
+A number called **Exposure Assessment Index Value (EAIV)** is calculated based on the findings and highlights the :command:`Exposure Assessment` of the domain.
 This value ranges from **0** to **100**, where zero means no exposure at all and 100 is the maximum value.
 The higher the value, the higher the possible attack surface, with more information available online and potentially exploitable by threat actors.
 Of course, as the company gets bigger, so will the score.
@@ -85,7 +85,7 @@ or a :ref:`Domain Report<domain-report>` for a single domain.
 Scan times by type of object
 -----------------------------
 
-The following table lists the details of how often each scan is performed according to the type of item. All the evidences are described in details in the page :ref:`SATAYO Items<satayo-items>`.
+The following table lists the details of how often each scan is performed according to the type of item. All the findings are described in details in the page :ref:`SATAYO Items<satayo-items>`.
 
 +--------------------+-------------+
 | ITEM               | PERIODICITY |
@@ -201,7 +201,7 @@ the :command:`Exposure Assessment Index Value` can be found within this document
 
 A report like this is available for each domain, as shown in the section
 :ref:`Domain Report<domain-report>`, and contains more detailed information
-about the analyzed evidences.
+about the analyzed findings.
 
 .. _global-overview:
 
@@ -249,7 +249,7 @@ This is the page where all the items collected by |sat| are shown. Complete info
 2. Report
 ~~~~~~~~~~
 
-From this page you can download the report of the various evidences collected by |sat| for the selected domain. The scoring of the three main sections of the report
+From this page you can download the report of the various findings collected by |sat| for the selected domain. The scoring of the three main sections of the report
 is shown and each section can be consulted directly from this page. A summary of the findings with a description of how the score was calculated is also available.
 The definition of the number was given earlier, in the section :ref:`Global Report<global-report>`.
 In addition to this, the number of assets managed for the domain is indicated.
@@ -293,7 +293,7 @@ Similar to the visualization present in the global menu, this time it shows only
 Tables
 ---------------
 
-Evidences in |sat| are organized in tables and it's possible to filter data from any column. More advanced filters such as AND, OR, NOT operators, regular expressions and more are possible.
+Findings in |sat| are organized in tables and it's possible to filter data from any column. More advanced filters such as AND, OR, NOT operators, regular expressions and more are possible.
 The complete list and some examples are available `here <https://github.com/koalyptus/TableFilter/wiki/4.-Filter-operators>`__.
 
 |

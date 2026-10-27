@@ -72,7 +72,7 @@ The :command:`Acknowledged` status indicates that an analysis was performed and 
 If requested, the internal ticket containing the analysis can be shared.
 
 .. note::
-    Our analysts follow a logic and open tickets for suspicious evidences by prioritizing the most dangerous ones. You will be informed via email notification when a new analysis is available.
+    Our analysts follow a logic and open tickets for suspicious findings by prioritizing the most dangerous ones. You will be informed via email notification when a new analysis is available.
 
 Status of the tickets can be checked from :file:`Settings -> Status Managed`. Here detailed information about tickets are shown. There is a link for each ticket that brings you to the Help Center where you can directly interact with it.
 When the status of the ticket is in :command:`Waiting for Customer` it means it's your turn to open it, read what we analyzed and the mitigation we proposed and comment.
@@ -191,7 +191,7 @@ Some suggestions about possible usages:
 + **IP** - Integrate them within traffic drop rules on firewalling devices,
   to deny the ingoing/outgoing traffic to/from the IPs
 + **Domain** - Use them within traffic drop rules on mail servers
-+ **Email** - These may come from |sat| market evidences or Brute Force
++ **Email** - These may come from |sat| market findings or Brute Force
   attempts. A suggested usage could be to convert the emails to the proper
   format in order to reset the password on authentication servers (e.g. AD server)
 + **HASH** - Use them on EDR software to filter out malicious software or within
