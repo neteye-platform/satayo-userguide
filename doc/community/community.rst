@@ -1,43 +1,47 @@
 .. _community:
 
 ****************
-SATAYO Community
+|sat| Community
 ****************
 
-General info
-=============
+General Information
+===================
 
-The SATAYO Community was created as an exclusive virtual space dedicated to SATAYO customers and users. You can find more information about it at `SATAYO Community official website <https://community.satayo.cloud/>`_.
+The |sat| Community was created as an exclusive virtual space dedicated to
+|sat| customers and users. You can find more information about it at
+`SATAYO Community official website <https://community.satayo.cloud/>`_.
 
 Purposes
-=============
+========
 
 The SATAYO Community has the following objectives:
 
-+ promote the controlled sharing of security information;
-+ create a peer-to-peer support network;
-+ increase early warning capabilities for emerging attack campaigns;
-+ enhance those who actively contribute to collective growth.
++ Promote the controlled sharing of security information
++ Create a peer-to-peer support network
++ Increase early warning capabilities for emerging attack campaigns
++ Enhance those who actively contribute to collective growth
 
-The SATAYO Community is an operational context for collaborative threat intelligence, based on trust, clear rules, and concrete benefits.
+The |sat| Community is an operational context for collaborative threat
+intelligence, based on trust, clear rules, and concrete benefits.
 
-Sharing events
+Sharing Events
 ==============
 
-The SATAYO Community is primarily based on monthly online events and in-person events with varying frequency.
+The |sat| Community is primarily based on monthly online events and in-person
+events with varying frequency.
 
 During monthly online meetings, the |witit| Threat Intelligence team organizes:
 
-+ shared threat briefings;
-+ presentations of real-world cases;
-+ peer Q&A sessions;
-+ developmental updates to the SATAYO platform.
++ Shared threat briefings
++ Presentations of real-world cases
++ Peer Q&A sessions
++ Developmental updates to the |sat| platform
 
 During onsite meetings, the |witit| Threat Intelligence team organizes:
 
-+ practical workshops led directly by members of the IT team or SATAYO users
-+ roundtable discussions
-+ networking
++ Practical workshops led directly by members of the IT team or |sat| users
++ Roundtable discussions
++ Networking
 
 Trust & Information Sharing Model
 =================================
@@ -47,15 +51,18 @@ TLP Context
 
 **Default: TLP:AMBER + STRICT**
 
-+ All shared content (incidents, IOCs, TTPs, lessons learned) remains exclusively within the SATAYO Community.
-+ External redistribution is prohibited unless explicitly authorized.
++ All shared content (incidents, IOCs, TTPs, lessons learned) remains
+  exclusively within the |sat| Community
++ External redistribution is prohibited unless explicitly authorized
 
 **Selected physical events: TLP:CLEAR**
 
-+ During specific on-site workshops, the information context may be changed to TLP:CLEAR.
-+ This will allow controlled access to companies outside the Community, fostering networking and ecosystem growth.
++ During specific on-site workshops, the information context may be changed
+  to TLP:CLEAR
++ This will allow controlled access to companies outside the Community,
+  fostering networking and ecosystem growth
 
-Types of shareable content
+Types of Shareable Content
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 + Attacks suffered or attempted (anonymized or not, at the member's discretion)

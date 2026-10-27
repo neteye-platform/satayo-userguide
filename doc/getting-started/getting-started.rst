@@ -12,7 +12,7 @@ Getting Started
 Registration
 =============
 
-The registration process is quite simple. First your company will be added into SATAYO and then the various scans will begin.
+The registration process is quite simple. First your company will be added into |sat| and then the various scans will begin.
 Accounts for your users will be created by us and you will receive an email with a link to finalize the registration.
 
 .. image:: registration.png
@@ -27,12 +27,12 @@ Accounts for your users will be created by us and you will receive an email with
 
 .. _how-SATAYO-works:
 
-How does SATAYO work
-=====================
+How |sat| Works
+===============
 
 .. _intellige-lifecycle:
 
-The SATAYO platform and its related services treat the continuous monitoring of an organization’s digital footprint, for better satisfying the needs, the service was modelled using the Intelligence lifecycle as a reference model. Starting from the assets provided during the onboarding phase, they could be considered part of the information required, that rappresent the identity of the organization and its context; the platform collects, processes, and analyzes data from multiple OSINT sources to identify potential threats for the organisation.
+The |sat| platform and its related services treat the continuous monitoring of an organization’s digital footprint, for better satisfying the needs, the service was modelled using the Intelligence lifecycle as a reference model. Starting from the assets provided during the onboarding phase, they could be considered part of the information required, that rappresent the identity of the organization and its context; the platform collects, processes, and analyzes data from multiple OSINT sources to identify potential threats for the organisation.
 
 .. image:: intel02.jpeg
     :align: center
@@ -43,10 +43,10 @@ The cycle is composed of multiple phases that are continuously repeated to ensur
     It is essential to recognize that the process originates from the requirements. While the desired service outcome was defined during the onboarding phase, it is also necessary to establish the initial scope and identify the elements the service will be responsible for monitoring. For this reason, we specified a section in this guide dedicated to it.
 
 
-After the definition the :ref:`requirement<intelligence-requirements>` (scope of the service) and determined the planning of the activity, the intelligence lifecycle comprehend a proper way to retrieve the data and normalize it. SATAYO integrates a wide variety of different tools to perform the collection.
+After the definition the :ref:`requirement<intelligence-requirements>` (scope of the service) and determined the planning of the activity, the intelligence lifecycle comprehend a proper way to retrieve the data and normalize it. |sat| integrates a wide variety of different tools to perform the collection.
 
-The search process is based on the asset **domains** that were previously identified, mapped, and configured during the onboarding engagement with a SATAYO analyst.
-The primary workflow used by the SATAYO engine consists of multiple scans performed to assess the status of the monitored perimeter at a specific point in time. Each scan leverages a dedicated probe to collect asset-related data. Starting from the domain level, SATAYO independently reconstructs and continuously learns the infrastructure to be monitored.
+The search process is based on the asset **domains** that were previously identified, mapped, and configured during the onboarding engagement with a |sat| analyst.
+The primary workflow used by the |sat| engine consists of multiple scans performed to assess the status of the monitored perimeter at a specific point in time. Each scan leverages a dedicated probe to collect asset-related data. Starting from the domain level, |sat| independently reconstructs and continuously learns the infrastructure to be monitored.
 
 Keywords are leveraged to detect data and information that are not directly associated with the identified perimeter but are useful for deriving contextual insights and identifying elements that represent the customer’s identity.
 A typical use case involves the application name of an Android app, which can be used to identify additional applications maliciously crafted to impersonate the legitimate one.
@@ -72,8 +72,8 @@ An example of an alert received by email is shown below:
 
 It must be noted that in case of managed service, a different alert will be sent when a new ticket is created by our analysts, as explained in the section :ref:`Managed Service<jiraalert>`.
 
-The evidences collected by SATAYO are ordered in multiple :ref:`Items<satayo-items>` that can be reviewed.
-A number called **Exposure Assessment Index Value (EAIV)** is calculated based on the evidences and highlights the :command:`Exposure Assessment` of the domain.
+The evidence collected by |sat| is ordered in multiple :ref:`Items<satayo-items>` that can be reviewed.
+A number called **Exposure Assessment Index Value (EAIV)** is calculated based on the findings and highlights the :command:`Exposure Assessment` of the domain.
 This value ranges from **0** to **100**, where zero means no exposure at all and 100 is the maximum value.
 The higher the value, the higher the possible attack surface, with more information available online and potentially exploitable by threat actors.
 Of course, as the company gets bigger, so will the score.
@@ -85,7 +85,7 @@ or a :ref:`Domain Report<domain-report>` for a single domain.
 Scan times by type of object
 -----------------------------
 
-The following table lists the details of how often each scan is performed according to the type of item. All the evidences are described in details in the page :ref:`SATAYO Items<satayo-items>`.
+The following table lists the details of how often each scan is performed according to the type of item. All the findings are described in details in the page :ref:`SATAYO Items<satayo-items>`.
 
 +--------------------+-------------+
 | ITEM               | PERIODICITY |
@@ -148,13 +148,17 @@ The following table lists the details of how often each scan is performed accord
 IP Whitelisting
 -----------------------------
 
-The whitelist of the network :command:`82.193.25.0/24` is requested. Whitelisting this network, which is used to manage active scanning activities and that is  `managed directly <https://apps.db.ripe.net/db-web-ui/lookup?source=ripe&key=82.193.25.0%20-%2082.193.25.255&type=inetnum>`_ by Wurth IT Italy, is strongly recommended to allow SATAYO to obtain more consistent information about the services exposed on the infrastructure being analyzed.
+The whitelist of the network :command:`82.193.25.0/24` is requested. Whitelisting
+this network, which is used to manage active scanning activities and that is
+`managed directly <https://apps.db.ripe.net/db-web-ui/lookup?source=ripe&key=82.193.25.0%20-%2082.193.25.255&type=inetnum>`_
+by |witit|, is strongly recommended to allow |sat| to obtain more consistent
+information about the services exposed on the infrastructure being analyzed.
 
 |
 |
 
-The SATAYO platform
-====================
+The |sat| Platform
+==================
 
 After the login you will face a page similar to this one:
 
@@ -164,7 +168,7 @@ After the login you will face a page similar to this one:
 
 Click on the image to enlarge it
 
-1. All the domains in your organization that have been analyzed by SATAYO. The number depends on how many domains you have.
+1. All the domains in your organization that have been analyzed by |sat|. The number depends on how many domains you have.
 2. The name of the analyzed domain. Data is obscured in this picture for privacy reasons.
 3. Information about the number of performed scans.
 4. The options available for each domain. Better explained in the section, :ref:`Domain Options<domain>`.
@@ -190,10 +194,14 @@ The global options. Read below for more details.
 1. Report - Global Executive Summary
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The button with the printer emoji lets you download a document called "*Global Executive Summary*". Inside you will find a summary of the critical issues
-retrieved by SATAYO for all the domains that are being monitored. Details about the :command:`Exposure Assessment Index Value` can be found within this document.
+The button with the printer emoji lets you download a document called "*Global
+Executive Summary*". Inside you will find a summary of the critical issues
+retrieved by |sat| for all the domains that are being monitored. Details about
+the :command:`Exposure Assessment Index Value` can be found within this document.
 
-A report like this is available for each domain, as shown in the section :ref:`Domain Report<domain-report>`, and contains more detailed information about the analyzed evidences.
+A report like this is available for each domain, as shown in the section
+:ref:`Domain Report<domain-report>`, and contains more detailed information
+about the analyzed findings.
 
 .. _global-overview:
 
@@ -234,14 +242,14 @@ The domain options. Read below for more details.
 1. Research
 ~~~~~~~~~~~~
 
-This is the page where all the items collected by SATAYO are shown. Complete information about these objects can be found in the page :ref:`SATAYO Items<satayo-items>`.
+This is the page where all the items collected by |sat| are shown. Complete information about these objects can be found in the page :ref:`SATAYO Items<satayo-items>`.
 
 .. _domain-report:
 
 2. Report
 ~~~~~~~~~~
 
-From this page you can download the report of the various evidences collected by SATAYO for the selected domain. The scoring of the three main sections of the report
+From this page you can download the report of the various findings collected by |sat| for the selected domain. The scoring of the three main sections of the report
 is shown and each section can be consulted directly from this page. A summary of the findings with a description of how the score was calculated is also available.
 The definition of the number was given earlier, in the section :ref:`Global Report<global-report>`.
 In addition to this, the number of assets managed for the domain is indicated.
@@ -257,10 +265,10 @@ The token is unique for all users in the company.
 
 .. _history:
 
-4. Historical Researches
-~~~~~~~~~~~~~~~~~~~~~~~~~
+4. Historical Searches
+~~~~~~~~~~~~~~~~~~~~~~
 
-From here it is possible to browse previous searches done by SATAYO and take a look at what has been found before. You can also see if the overall situation is
+From here it is possible to browse previous searches done by |sat| and take a look at what has been found before. You can also see if the overall situation is
 getting worse or better as the time passes. Statistic can also be viewed from the appropriate page.
 
 5. Statistic
@@ -285,7 +293,7 @@ Similar to the visualization present in the global menu, this time it shows only
 Tables
 ---------------
 
-Evidences in SATAYO are organized in tables and it's possible to filter data from any column. More advanced filters such as AND, OR, NOT operators, regular expressions and more are possible.
+Findings in |sat| are organized in tables and it's possible to filter data from any column. More advanced filters such as AND, OR, NOT operators, regular expressions and more are possible.
 The complete list and some examples are available `here <https://github.com/koalyptus/TableFilter/wiki/4.-Filter-operators>`__.
 
 |

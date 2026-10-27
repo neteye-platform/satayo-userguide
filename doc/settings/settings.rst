@@ -112,7 +112,7 @@ This button opens the guide you are reading right now. Hope you found what you w
 License
 ========
 
-This page contains some useful information, such as the contract expiration date and the amount of credit used for the acquisition of market evidences.
+This page contains some useful information, such as the contract expiration date and the amount of credit used for the acquisition of findings on the market.
 Furthermore, the number of assets taken into consideration for the quotation of the service is indicated.
 
 |

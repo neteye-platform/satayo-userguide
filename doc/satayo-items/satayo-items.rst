@@ -95,7 +95,7 @@ Port
 -----
 
 This section consists of **seven** different subsections. The operation of each is explained below.
-You can access this section directly from the main menu and see a list of all the evidences.
+You can access this section directly from the main menu and see a list of all the findings.
 Otherwise, from the :ref:`Hostname<hostname>` section you can view details about an individual IP.
 
 +-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
